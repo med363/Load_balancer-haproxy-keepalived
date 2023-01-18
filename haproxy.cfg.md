@@ -51,3 +51,5 @@ defaults
        server             web1 192.168.56.12:80 check
        server             web2 192.168.56.13:80 check
 
+## reload
+/etc/init.d/haproxy restart
