@@ -1,5 +1,4 @@
-
-bash ```
+```bash
 vrrp_script chk_haproxy {
     script "killall -0 haproxy"
     interval 2
