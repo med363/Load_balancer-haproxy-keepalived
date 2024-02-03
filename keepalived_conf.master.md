@@ -7,7 +7,7 @@ vrrp_script chk_haproxy {
 
 
 vrrp_instance VI_1 {
-    interface enp0s9
+    interface ens33
     state MASTER
     priority 500
     virtual_router_id 51
@@ -15,7 +15,7 @@ vrrp_instance VI_1 {
 
 
     virtual_ipaddress {
-        192.168.1.23
+        192.168.1.19
     }
 
  
